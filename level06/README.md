@@ -1,7 +1,7 @@
 LEVEL 06
 ========
 
-XSS vulnerability, only ' & " are not allowd, add <script>.
+XSS vulnerability, only ' & " are not allowd, add < script >.
 
     $.get('https://level06-2.stripe-ctf.com/user-gdnipyajcv/user_info',
       function(data) {
