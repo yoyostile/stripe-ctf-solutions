@@ -9,4 +9,4 @@ $attempt == $combination is required, $combination is the content
 file_get_contents($filename). Simply manipulate $filename to /dev/null
 and you're good to go.
 
-?attempt=&filename=/dev/null
+    ?attempt=&filename=/dev/null
