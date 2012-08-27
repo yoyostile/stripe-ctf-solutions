@@ -1,5 +1,5 @@
-LEVEL 0
-=======
+LEVEL 00
+========
 
 Simple SQL vulnerability - variable namespace not escaped
 
