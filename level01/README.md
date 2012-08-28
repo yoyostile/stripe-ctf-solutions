@@ -1,4 +1,4 @@
-LEVEL 02
+LEVEL 01
 ========
 
 It's not safe to extract all vars from $_GET.
