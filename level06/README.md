@@ -16,4 +16,8 @@ XSS vulnerability, only ' & " are not allowed, add < script >.
       })
 
 Escape with JavaScript String.charCodeAt()
+
+[http://www.w3schools.com/jsref/jsref_charcodeat.asp](http://www.w3schools.com/jsref/jsref_charcodeat.asp)
+[http://www.w3schools.com/jsref/jsref_fromcharcode.asp](http://www.w3schools.com/jsref/jsref_fromcharcode.asp)
+[http://www.w3schools.com/jsref/jsref_eval.ASP](http://www.w3schools.com/jsref/jsref_eval.ASP)
 [http://jdstiles.com/java/cct.html](http://jdstiles.com/java/cct.html)
