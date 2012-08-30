@@ -14,6 +14,7 @@ and you're good to go.
 ---
 
 In Level 01 sollte direkt auffallen, dass hier der unsichere Aufruf extract($_GET) ausgeführt wird. extract() importiert Variablen eines Arrays in die aktuelle Symboltabelle, in diesem Fall alle Parameter, die vom Nutzer via GET übertragen werden. Die interessante Codestelle:
+
     <?php
       $filename = 'secret-combination.txt';
       extract($_GET);
