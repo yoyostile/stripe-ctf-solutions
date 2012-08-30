@@ -8,6 +8,7 @@ SHA1 length extension attack
 ---
 
 Bei Level 7 handelt es sich um einen SHA 1 Length Extension Attack.
+
     def verify_signature(user_id, sig, raw_params):
         # get secret token for user_id
         try:
