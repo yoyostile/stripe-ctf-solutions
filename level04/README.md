@@ -40,7 +40,7 @@ Interessant, dass sich der User karma_fountain jede Minute einloggt, oder? Auße
 
 Die interesse Stelle oben lässt erkennen, dass hier der Username durch eine Regular Expression validiert wird, dass Passwort jedoch nicht! Oh. Und das Passwort wird ja jedem Empfänger angezeigt?! Spricht für eine wunderbare Cross Site Scripting Vulnerability. 
 
-    <script type='text/javascript'>$.ajax({ url: document.location +
+      <script type='text/javascript'>$.ajax({ url: document.location +
     'transfer', type: 'POST', data: { to: 'a', amount: '100' }});</script>
     
 Packen wir also das kurze, oben stehende Script bei der Registrierung als Passwort in unseren Account und überweisen der karma_fountain danach etwas Karma, so wird beim nächsten Aufruf durch die karma_fountain eben jenes Script ausgeführt. Das Teil sendet also dem User a Karma - und natürlich das Passwort! 
