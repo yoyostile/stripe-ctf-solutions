@@ -13,6 +13,12 @@ and you're good to go.
 
 ---
 
+Excellent, you are now on Level 1, the Guessing Game. All you have to do is guess the combination correctly, and you'll be given the password to access Level 2! We've been assured that this level has no security vulnerabilities in it (and the machine running the Guessing Game has no outbound network connectivity, meaning you wouldn't be able to extract the password anyway), so you'll probably just have to try all the possible combinations. Or will you...?
+
+You can play the Guessing Game at https://level01-2.stripe-ctf.com/user-XXXX. The code for the Game can be obtained from git clone https://level01-2.stripe-ctf.com/user-XXXX/level01-code, and is also included below.
+
+---
+
 In Level 01 sollte direkt auffallen, dass hier der unsichere Aufruf extract($_GET) ausgeführt wird. extract() importiert Variablen eines Arrays in die aktuelle Symboltabelle, in diesem Fall alle Parameter, die vom Nutzer via GET übertragen werden. Die interessante Codestelle:
 
     <?php

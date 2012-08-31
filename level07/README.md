@@ -7,6 +7,17 @@ SHA1 length extension attack
 
 ---
 
+Welcome to the penultimate level, Level 7.
+
+WaffleCopter is a new service delivering locally-sourced organic waffles hot off of vintage waffle irons straight to your location using quad-rotor GPS-enabled helicopters. The service is modeled after TacoCopter, an innovative and highly successful early contender in the airborne food delivery industry. WaffleCopter is currently being tested in private beta in select locations.
+
+Your goal is to order one of the decadent Liège Waffles, offered only to WaffleCopter's first premium subscribers.
+
+Log in to your account at https://level07-2.stripe-ctf.com/user-XXXX with username ctf and password password. You will find your API credentials after logging in. You can fetch the code for the level via
+git clone https://level07-2.stripe-ctf.com/user-XXXX/level07-code, or you can read it below. You may find the sample API client in client.py particularly helpful.
+
+---
+
 Bei Level 7 handelt es sich um einen SHA 1 Length Extension Attack.
 
     def verify_signature(user_id, sig, raw_params):
